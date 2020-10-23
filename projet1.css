@@ -44,14 +44,6 @@ a{
 	flex-direction:row;
 	justify-content: space-between;
 }
-iframe{
-	display: flex;
-	align-items: flex-end;
-	border:solid white;
-}
-#vid{
-	float: right;
-}
 
 .bouton {
 	background-color: #33e9ff;
