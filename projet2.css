@@ -1,0 +1,77 @@
+body{
+	background-image: url(ressources/ide/fondide.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Grenze Gotisch', cursive;
+
+}
+h1{
+	color: lightgreen;
+	text-align: center;
+	align-items: center;
+	text-shadow: -3px 0 black, 0 3px green,
+      3px 0 black, 0 -3px green;
+}
+p{
+	color: lightgreen;
+	color: lightgreen; text-shadow: green 0.3em 0.3em 0.2em;
+	font-size: 18px;
+}
+ul{
+    
+	color: lightgreen;
+	color: lightgreen; text-shadow: green 0.3em 0.3em 0.2em;
+	font-size: 18px;
+}
+#ide{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+	height: 200px;
+	width: 350px;
+ 
+	border:solid white;
+}
+a{
+	text-decoration: none;
+	padding-left: 500px;
+	color: black;
+	color: black; text-shadow: black 0.3em 0.3em 0.2em;
+}	
+.row{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.bouton {
+	background-color: #33e9ff;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 50%;
+	transition: 0.3s;
+  }
+  
+  .bouton:hover {
+	transition-duration: 2s;
+	  opacity: 100%;
+	  color: red;
+	}
+	
+footer{
+		background-color: rgba(255, 0, 0, 0.308);
+	}
+	footer p{
+	
+		color: white;
+		margin-bottom: -16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		align-items: center;
+	}

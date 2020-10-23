@@ -1,0 +1,84 @@
+body{
+	font-family: 'Turret Road', cursive;
+	background-image: url(ressources/portfolioback.gif);
+	background-size: 100%;
+	background-repeat: none;
+	background-attachment:fixed;
+
+}
+header{
+	margin-top: -16px;
+}
+h1{
+	font-size: 52px;
+	text-align: center;
+	align-items: center;
+	color: lightcoral;
+	text-shadow: -3px 0 grey, 0 3px grey,
+      3px 0 grey, 0 -3px grey;
+}
+h3{
+	font-size: 27px;
+	text-align: center;
+	color: white;
+	text-shadow: -3px 0 green, 0 3px greenyellow,
+      3px 0 grey, 0 -3px grey;
+
+
+}
+.quadra{
+	border:solid black 2px;
+	height: 200px;
+	width: 350px;
+}
+#bloc1{
+	display: flex;
+	flex-direction: column;
+}
+#row1{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+#row2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.navi{
+	background-color: rgba(255, 0, 0, 0.418);
+}
+ul{
+	color: white;
+	padding: 30px;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+section a img:hover{
+	transition-duration: 1s;
+-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
+li a{
+	color:white;
+}
+
+footer{
+	background-color: rgba(255, 0, 0, 0.308);
+}
+footer p{
+
+	color: white;
+	margin-bottom: -16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	align-items: center;
+}

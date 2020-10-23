@@ -1,0 +1,85 @@
+body{
+	background-image: url(ressources/connexion/connectbackground.gif);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Grenze Gotisch', cursive;
+
+}
+h1{
+	color:White;
+	text-align: center;
+	align-items: center;
+	text-shadow: -3px 0 black, 0 3px orange,
+      3px 0 black, 0 -3px orange;
+}
+p{
+	color: white;
+	color: white; text-shadow: orange 0.3em 0.3em 0.2em;
+	font-size: 18px;
+}
+ul{
+    
+	color: white;
+	color: white; text-shadow: orange 0.3em 0.3em 0.2em;
+	font-size: 18px;
+}
+#connect{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+	height: 200px;
+	width: 350px;
+ 
+	border:solid white;
+}
+a{
+	text-decoration: none;
+	padding-left: 500px;
+	color: black;
+	color: black; text-shadow: black 0.3em 0.3em 0.2em;
+}	
+.row{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+iframe{
+	display: flex;
+	align-items: flex-end;
+	border:solid white;
+}
+#vid{
+	float: right;
+}
+
+.bouton {
+	background-color: #33e9ff;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 50%;
+	transition: 0.3s;
+  }
+  
+  .bouton:hover {
+	transition-duration: 2s;
+	  opacity: 100%;
+	  color: red;
+	}
+	
+footer{
+		background-color: rgba(255, 0, 0, 0.308);
+	}
+	footer p{
+	
+		color: white;
+		margin-bottom: -16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		align-items: center;
+	}
