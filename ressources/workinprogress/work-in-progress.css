@@ -1,0 +1,42 @@
+body{
+	background-image: url(ressources/wip.gif);
+	background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 0, 255, 0.548);
+	font-family: 'Staatliches', cursive;
+
+}
+h1{
+	color: lightgreen;
+	text-align: center;
+	align-items: center;
+	text-shadow: -3px 0 black, 0 3px green,
+      3px 0 black, 0 -3px green;
+}
+.p{
+	color: lightgreen;
+	color: lightgreen; text-shadow: green 0.3em 0.3em 0.2em;
+  font-size: 34px;
+  text-align: center;
+}
+ul{
+    
+	color: lightgreen;
+	color: lightgreen; text-shadow: green 0.3em 0.3em 0.2em;
+	font-size: 18px;
+}
+	
+footer{
+    background-color: rgba(255, 0, 0, 0.308);
+    margin-top: 350px;
+	}
+  footer p{
+	
+		color: white;
+		margin-bottom: -16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+    align-items: center;
+    font-size: 20px;
+	}
